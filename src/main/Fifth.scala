@@ -25,11 +25,11 @@ object Fifth{
     @tailrec
     def expIter(num: Int, exp: Int, index:Int, answer: Int):Int={
       if(exp > 0) {
-        if (index < exp) expIter(num, exp, index + 1, answer*=num)
-        else num
+        if (index < exp) expIter(num, exp, index + 1, answer * num)
+        else answer
       } else 1
     }
-    expIter(number, exponent, 0)
+    expIter(number, exponent, 0 , 1)
   }
 
   def bigNumNotRec(oldList: mutable.MutableList[Int], newList: mutable.MutableList[Int]): mutable.MutableList[Int] = {

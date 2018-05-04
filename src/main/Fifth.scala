@@ -5,26 +5,31 @@ import scala.collection.mutable
 
 object Fifth{
   def main(args: Array[String]): Unit = {
-    val list = List[Int](1,2,3,4,5,6,7,8)
+    val exponent = 4;
+    val number = 5;
     val list1 = mutable.MutableList[Int](1,0,2,0,-1,-2,1,-5,6,-4)
     val list2 = mutable.MutableList[Int]()
+    println(exponentRecursive(number,exponent))
+    println(exponentTailRecursive(number, exponent))
     println(bigNumNotRec(list1, list2))
     println(bigNumTailRec(list1))
 
   }
 
-  def sumRecursive(list: List[Int],size: Int): Int = {
-    if(size > 0) list(size - 1) + sumRecursive(list, size - 1)
-    else 0
+  def exponentRecursive(number: Int,exponent: Int): Int = {
+    if(exponent > 0) number * exponentRecursive(number, exponent - 1)
+    else 1
   }
 
-  def sumTailRecursive(list: List[Int]): Int = {
+  def exponentTailRecursive(number: Int, exponent: Int): Int = {
     @tailrec
-    def sumIter(list: List[Int], acc:Int, index:Int):Int={
-      if(index < list.length) sumIter(list, list(index) + acc, index+1)
-      else acc
+    def expIter(num: Int, exp: Int, index:Int, answer: Int):Int={
+      if(exp > 0) {
+        if (index < exp) expIter(num, exp, index + 1, answer*=num)
+        else num
+      } else 1
     }
-    sumIter(list, 0, 0)
+    expIter(number, exponent, 0)
   }
 
   def bigNumNotRec(oldList: mutable.MutableList[Int], newList: mutable.MutableList[Int]): mutable.MutableList[Int] = {

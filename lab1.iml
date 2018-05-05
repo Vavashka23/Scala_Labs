@@ -8,6 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="scala-sdk-2.12.6" level="application" />
-    <orderEntry type="library" exported="" name="org.scalatest:scalatest_2.9.0-1:2.0.M6-SNAP3" level="project" />
+    <orderEntry type="library" name="org.scalactic:scalactic_2.12:3.0.5" level="project" />
+    <orderEntry type="library" name="org.scalatest:scalatest_2.12:3.0.5" level="project" />
   </component>
 </module>

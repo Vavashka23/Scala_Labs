@@ -5,7 +5,7 @@ import org.scalatest._
 
 import scala.collection.mutable
 
-class ExampleSpec extends FlatSpec with Matchers {
+class TestFifth extends FlatSpec with Matchers {
 
   it should "Exponentiation element with recursion" in {
     val num = 3

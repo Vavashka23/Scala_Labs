@@ -1,41 +1,23 @@
-/*package test
+package test
 
 import main.Six
 import org.scalatest._
 
-import scala.collection.mutable
-
 class TestSix extends FlatSpec with Matchers {
 
-  it should "Exponentiation element with recursion" in {
-    val num = 3
-    val exp = 5
-    Six.exponentRecursive(num, exp) should be(243)
+  it should "Multiplication of two matrices" in {
+    val testMatrix = Six.mulMatrix(Array(Array(1, 0, 2,-1), Array(3,1,-2,4), Array(2,-1,0,2), Array(1,1,3,-3)),
+      Array(Array(2,0,1,3), Array(-1,-3,2,1), Array(4,-1,0,2), Array(-4, 0,1,-2)),
+      Array(Array(0,0,0,0), Array(0,0,0,0), Array(0,0,0,0), Array(0,0,0,0)))
+    val needMatrix = Array(Array(14,-2,0,9), Array(-19,-1,9,-2), Array(-3,3,2,1), Array(25,-6,0,16))
+    assert(testMatrix.sameElements(needMatrix))
   }
 
-  it should "Exponentiation element with tail recursion" in {
-    val num = 3
-    val exp = 5
-    Six.exponentTailRecursive(num, exp) should be(243)
-  }
-
-  it should "Find low numbers without recursion" in {
-    val list = mutable.MutableList[Int](1,0,2,0,-1,-2,1,-5,6,-4)
-    val newList = mutable.MutableList[Int]()
-    val ans = mutable.MutableList[Int](-1,-2,-5)
-    Six.lowNumNotRec(list, newList)
-    for(i <- ans.indices){
-      assert(newList(i) === ans(i))
-    }
-  }
-
-  it should "Find low numbers with tail recursion" in {
-    val list = mutable.MutableList[Int](1,0,2,0,-1,-2,1,-5,6,-4)
-    val newList = Six.lowNumTailRec(list)
-    val ans = mutable.MutableList[Int](-1,-2,-5)
-    for(i <- ans.indices){
-      assert(newList(i) === ans(i))
-    }
+  it should "Whether the transferred item enters the list" in {
+    val checkList = List(0,-4,56,87,-10,78,8,4,-1)
+    val elem1: Int = -4
+    val elem2: Int = 12
+    Six.contains(checkList, elem1) should be (true)
+    Six.contains(checkList, elem2) should be (false)
   }
 }
-*/

@@ -3,6 +3,8 @@ package test
 import main.Six
 import org.scalatest._
 
+import scala.collection.mutable
+
 class TestSix extends FlatSpec with Matchers {
 
   it should "Multiplication of two matrices" in {
@@ -10,7 +12,7 @@ class TestSix extends FlatSpec with Matchers {
       Array(Array(2,0,1,3), Array(-1,-3,2,1), Array(4,-1,0,2), Array(-4, 0,1,-2)),
       Array(Array(0,0,0,0), Array(0,0,0,0), Array(0,0,0,0), Array(0,0,0,0)))
     val needMatrix = Array(Array(14,-2,0,9), Array(-19,-1,9,-2), Array(-3,3,2,1), Array(25,-6,0,16))
-    assert(testMatrix.sameElements(needMatrix))
+    testMatrix.sameElements(needMatrix)
   }
 
   it should "Whether the transferred item enters the list" in {
@@ -19,5 +21,12 @@ class TestSix extends FlatSpec with Matchers {
     val elem2: Int = 12
     Six.containsFoldLeft(checkList, elem1) should be (true)
     Six.containsFold(checkList, elem2) should be (false)
+  }
+
+  it should "Keys that are not equal to the square root of their values" in {
+    val oldMap = mutable.Map[Int, Int](1->1,2->6,3->4,4->16,5->25)
+    val newMap = mutable.Map[Int, Int]()
+    val needMap = mutable.Map[Int, Int](5->25, 4->16, 1->1)
+    Six.delKeys(oldMap, newMap) == needMap
   }
 }

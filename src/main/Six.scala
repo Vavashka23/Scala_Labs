@@ -8,7 +8,8 @@ object Six {
       Array(Array(0,0,0), Array(0,0,0), Array(0,0,0)))
     val newList = List(0,2,1,-4,8,40,48,45,7,8,9)
     val elem: Int = -4
-    println(contains(newList, elem))
+    println(containsFoldLeft(newList, elem))
+    println(containsFold(newList, elem))
   }
 
   def mulMatrix(matr1: Array[Array[Int]], matr2: Array[Array[Int]], matr3: Array[Array[Int]]): Array[Array[Int]]={
@@ -25,8 +26,15 @@ object Six {
     matr3
   }
 
-  def contains[A](list: List[Int], item: Int): Boolean =
+  def containsFoldLeft[A](list: List[Int], item: Int): Boolean =
     list.foldLeft(false)(_ || _==item)
+
+  def containsFold(list: List[Int], item: Int): Boolean = {
+    val check = list.fold(0)((m: Int, n: Int) => {if(n == item) m + 0
+    else m + n})
+    if(list.sum != check) true
+    else false
+  }
 
   def delKeys(): Unit = {
 

@@ -17,7 +17,7 @@ class TestSix extends FlatSpec with Matchers {
     val checkList = List(0,-4,56,87,-10,78,8,4,-1)
     val elem1: Int = -4
     val elem2: Int = 12
-    Six.contains(checkList, elem1) should be (true)
-    Six.contains(checkList, elem2) should be (false)
+    Six.containsFoldLeft(checkList, elem1) should be (true)
+    Six.containsFold(checkList, elem2) should be (false)
   }
 }

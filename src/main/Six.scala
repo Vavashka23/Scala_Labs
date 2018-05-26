@@ -1,4 +1,4 @@
-package main
+/*package main
 
 import scala.collection.mutable
 
@@ -18,8 +18,7 @@ object Six {
     println(containsFoldLeft(newList, elem))
     println(containsFold(newList, elem))
     val oldMap = mutable.Map[Int, Int](1->1,2->4,3->4,4->5)
-    val newMap = mutable.Map[Int, Int]()
-    println(delKeys(oldMap, newMap))
+    println(delKeys(oldMap))
   }
 
   def mulMatrix(matr1: Array[Array[Int]], matr2: Array[Array[Int]], matr3: Array[Array[Int]]): Array[Array[Int]]={
@@ -41,8 +40,8 @@ object Six {
     else false
   }
 
-  def delKeys(map: mutable.Map[Int, Int], newMap: mutable.Map[Int, Int]):mutable.Map[Int, Int]= {
-    map foreach {case (key, value) => if(key*key == value) newMap+=(key->value)}
-    newMap
+  def delKeys(map: mutable.Map[Int, Int]):mutable.Map[Int, Int]= {
+    //map foreach {case (key, value) => if(key*key == value) newMap+=(key->value)}
+    map.filter(f => f._1 == Math.sqrt(f._2))
   }
-}
+}*/

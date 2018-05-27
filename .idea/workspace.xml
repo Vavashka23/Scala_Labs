@@ -15,8 +15,8 @@
       <file leaf-file-name="TestSeven.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestSeven.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
               </folding>
@@ -24,20 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Six.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Six.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Seven.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Seven.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -81,26 +72,29 @@
         <option value="$PROJECT_DIR$/src/test/TestSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/test2.scala" />
         <option value="$PROJECT_DIR$/src/test/Test1.scala" />
-        <option value="$PROJECT_DIR$/src/main/Six.scala" />
-        <option value="$PROJECT_DIR$/src/test/TestSix.scala" />
         <option value="$PROJECT_DIR$/src/test/TestSeventh.sc" />
         <option value="$PROJECT_DIR$/src/main/Seventh.sc" />
         <option value="$PROJECT_DIR$/src/test/TestSeven.sc" />
-        <option value="$PROJECT_DIR$/src/test/TestSeven.scala" />
         <option value="$PROJECT_DIR$/src/main/Seven.scala" />
+        <option value="$PROJECT_DIR$/src/test/TestSeven.scala" />
+        <option value="$PROJECT_DIR$/src/test/TestSix.scala" />
+        <option value="$PROJECT_DIR$/src/main/Six.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,9 +123,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.TestSeven">
+  <component name="RunManager" selected="ScalaTest.TestSix">
     <configuration name="Seven" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="main.Seven" />
       <module name="lab1" />
@@ -268,11 +259,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.TestSix" />
         <item itemvalue="ScalaTest.TestSeven" />
         <item itemvalue="Application.Seven" />
         <item itemvalue="Application.Seventh" />
         <item itemvalue="Application.Six" />
-        <item itemvalue="ScalaTest.TestSix" />
       </list>
     </recent_temporary>
   </component>
@@ -293,58 +284,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSix - 2018.05.24 at 22h 18m 35s.xml">
+    <history-entry file="TestSeven - 2018.05.27 at 17h 42m 54s.xml">
+      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeven - 2018.05.27 at 17h 43m 14s.xml">
+      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeven - 2018.05.27 at 17h 43m 30s.xml">
+      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeven - 2018.05.27 at 17h 43m 46s.xml">
+      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeven - 2018.05.27 at 17h 44m 25s.xml">
+      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeven - 2018.05.27 at 17h 45m 26s.xml">
+      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSix - 2018.05.27 at 17h 45m 33s.xml">
       <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSix - 2018.05.24 at 22h 18m 47s.xml">
+    <history-entry file="TestSix - 2018.05.27 at 17h 45m 59s.xml">
       <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSix - 2018.05.24 at 22h 19m 11s.xml">
+    <history-entry file="TestSix - 2018.05.27 at 17h 46m 29s.xml">
       <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSix - 2018.05.24 at 22h 19m 45s.xml">
-      <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSix - 2018.05.24 at 22h 19m 58s.xml">
-      <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSix - 2018.05.25 at 16h 21m 38s.xml">
-      <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSix - 2018.05.25 at 17h 58m 54s.xml">
-      <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSix - 2018.05.25 at 17h 59m 45s.xml">
-      <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSix - 2018.05.25 at 18h 00m 15s.xml">
+    <history-entry file="TestSix - 2018.05.27 at 17h 46m 48s.xml">
       <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="870" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4921875" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4921875" weight="0.3281046" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50716144" side_tool="true" weight="0.30457518" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49283853" visible="true" weight="0.30383092" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49283853" weight="0.303268" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27249023" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1360677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -664,45 +658,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Seventh.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Six.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/Seventh.sc" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestSeven.sc" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestSix.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestSeven.sc">
+    <entry file="file://$PROJECT_DIR$/src/main/Six.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestSix.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" lean-forward="true" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="782">
+          <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestSeven.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
@@ -711,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Seven.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>

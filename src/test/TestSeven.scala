@@ -14,7 +14,7 @@ class TestSeven extends FlatSpec with Matchers {
   it should "Calculating area function" in {
     val fig1 = Seven.Rectangle(12,2)
     val fig2 = Seven.Parallelepiped(4,7,9)
-    assert(Seven.chooseFigure(fig1) == 24)
-    assert(Seven.chooseFigure(fig2) == 254)
+    assert(Seven.chooseFigureKek(fig1) == 24)
+    assert(Seven.chooseFigureKek(fig2) == 254)
   }
 }

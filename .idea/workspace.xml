@@ -15,8 +15,8 @@
       <file leaf-file-name="TestSeven.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestSeven.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="119">
+              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
               </folding>
@@ -27,8 +27,8 @@
       <file leaf-file-name="Seven.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Seven.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="325">
+              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -51,6 +51,7 @@
       <find>power</find>
       <find>bigNumNotRec</find>
       <find>bigNumTailRec</find>
+      <find>dropn</find>
     </findStrings>
     <replaceStrings>
       <replace>exponent</replace>
@@ -75,16 +76,16 @@
         <option value="$PROJECT_DIR$/src/test/TestSeventh.sc" />
         <option value="$PROJECT_DIR$/src/main/Seventh.sc" />
         <option value="$PROJECT_DIR$/src/test/TestSeven.sc" />
-        <option value="$PROJECT_DIR$/src/main/Seven.scala" />
-        <option value="$PROJECT_DIR$/src/test/TestSeven.scala" />
         <option value="$PROJECT_DIR$/src/test/TestSix.scala" />
         <option value="$PROJECT_DIR$/src/main/Six.scala" />
+        <option value="$PROJECT_DIR$/src/test/TestSeven.scala" />
+        <option value="$PROJECT_DIR$/src/main/Seven.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
@@ -92,9 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +121,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.TestSix">
+  <component name="RunManager" selected="Application.Seven">
     <configuration name="Seven" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="main.Seven" />
       <module name="lab1" />
@@ -259,9 +260,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.TestSix" />
-        <item itemvalue="ScalaTest.TestSeven" />
         <item itemvalue="Application.Seven" />
+        <item itemvalue="ScalaTest.TestSeven" />
+        <item itemvalue="ScalaTest.TestSix" />
         <item itemvalue="Application.Seventh" />
         <item itemvalue="Application.Six" />
       </list>
@@ -284,9 +285,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSeven - 2018.05.27 at 17h 42m 54s.xml">
-      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSeven - 2018.05.27 at 17h 43m 14s.xml">
       <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -313,6 +311,9 @@
     </history-entry>
     <history-entry file="TestSix - 2018.05.27 at 17h 46m 48s.xml">
       <configuration name="TestSix" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeven - 2018.06.02 at 10h 11m 51s.xml">
+      <configuration name="TestSeven" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -672,16 +673,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestSeven.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="119">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
@@ -690,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Seven.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="325">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
         </state>
       </provider>
     </entry>

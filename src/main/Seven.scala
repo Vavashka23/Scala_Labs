@@ -4,11 +4,18 @@ object Seven {
 
   def main(args: Array[String]): Unit = {
     val myColor = Tuple3(30, 128, 255)
+    val myCMYk = Tuple4(0.0, 0.82, 0.82, 0.28)
     println(myConvert(myColor))
     val rec = Rectangle(12,13)
     val parallelepiped = Parallelepiped(10,11,4)
-    chooseFigure(rec)
-    chooseFigure(parallelepiped)
+    chooseFigureKek(rec)
+    chooseFigureKek(parallelepiped)
+    chooseColorTup(myCMYk)
+  }
+
+  def toRGBColor(old: (Double, Double, Double, Double)):(Int, Int, Int) ={
+    val newColor = Tuple3((255*(1-old._1)*(1-old._4)).toInt, (255*(1-old._2)*(1-old._4)).toInt, (255*(1-old._3)*(1-old._4)).toInt)
+    newColor
   }
 
   def myConvert(old: (Int, Int, Int)): (Int, Int, Int) = {
@@ -17,10 +24,17 @@ object Seven {
     newColor
   }
 
-  def chooseFigure(obj: AnyRef)=
+  def chooseColorTup(obj: AnyRef ) =
+  obj match{
+    case obj:(Int, Int, Int) => println(myConvert(obj))
+    case obj:(Double, Double, Double, Double) => println(myConvert(toRGBColor(obj)))
+    case _ => println("blablabla")
+  }
+
+  def chooseFigureKek(obj: AnyRef)=
     obj match {
-      case obj:Rectangle => sFig(obj.unapply(obj))
-      case obj:Parallelepiped => sFig(obj.unapply(obj))
+      case obj:Rectangle => println(sFig(obj.unapply(obj)))
+      case obj:Parallelepiped => println(sFig(obj.unapply(obj)))
       case _ => println("nothing")
     }
 
